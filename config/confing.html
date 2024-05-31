@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>PC Configurator</title>
+    <link rel="stylesheet" href="./config.css">
+</head>
+<body>
+    <div class="header">
+        <div class="logo">PC</div>
+
+        <div class="sections">
+          <a href="../config/confing.html">
+            <button class="main">Главная</button>
+          </a>
+          <button class="config" onClick="document.getElementById('configScroll').scrollIntoView();">Конфигуратор</button>
+          <button class="collections" onClick="document.getElementById('collectionsScroll').scrollIntoView();">Сборки</button>
+          <button class="contacs" onClick="document.getElementsByClassName('contacts')[0].scrollIntoView();">Контакты</button>
+        </div>
+
+        <div class="auth">
+          <a href="../login/login.html">
+            <button class="loginSection">Вход</button>
+          </a>
+          <a href="../signup/signup.html">
+            <button class="signupSection">Регистрация</button>
+          </a>
+        </div>
+      </div>
+    
+    <div class="content">
+        <div class="block">
+          <div class="title">Конфигуратор ПК</div>
+
+          <div class="description">
+            Конфигуратор системного блоĸа HYPERPC с проверĸой совместимости
+            поможет подобрать идеальную ĸомплеĸтацию ПК.
+          </div>
+
+          <div class="intro">
+            <button>Собрать онлайн ></button>
+          </div>
+        </div>
+        
+        <hr class="rounded" id="configScroll">
+
+        <div class="block">
+          <div class="title">Собрать ПК онлайн</div>
+
+          <div class="description">
+            В режиме реального времени вы можете собрать собственный ПК под свои нужны
+          </div>
+
+          <div class="table">
+            <div class="column">
+              <button>Процессор</button>
+              <button>Мат. плата</button>
+              <button>Накопители</button>
+              <button>Оп. память</button>
+            </div>
+            <div class="column">
+              <button>Видеокарта</button>
+              <button>Корпус</button>
+              <button>Блок питания</button>
+              <button>Другое</button>
+            </div>
+          </div>
+
+          <div class="title">Итог: ***</div>
+        </div>
+
+        <hr class="rounded" id="collectionsScroll">
+
+        <div class="block">
+          <div class="title">Готовые сборки</div>
+
+          <div class="description">
+            В режиме реального времени вы можете собрать собственный ПК под свои нужны
+          </div>
+
+          <!-- plashki -->
+          <div class="modules">
+            <div class="module">
+              <div>
+                <img src="../pics/ready_pc_1.png">
+              </div>
+
+              <div class="techInfo">
+                <div class="type">Видеокарта</div>
+                <div class="typeModel">MSI RTX 3060 12 GB</div>
+
+                <div class="type">Процессор</div>
+                <div class="typeModel">Intel Core I7-12700</div>
+
+                <div class="type">Оперативная память</div>
+                <div class="typeModel">AMD 16 GB DDR5</div>
+              </div>
+
+              <div>
+                <button>Подробнее</button>
+              </div>
+            </div>
+
+            <div class="module">
+              <div>
+                <img src="../pics/ready_pc_2.png">
+              </div>
+
+              <div class="techInfo">
+                <div class="type">Видеокарта</div>
+                <div class="typeModel">PALIT RTX 4070 12 GB</div>
+
+                <div class="type">Процессор</div>
+                <div class="typeModel">Intel Core I9-13600</div>
+
+                <div class="type">Оперативная память</div>
+                <div class="typeModel">SAMSUNG 32 GB DDR5</div>
+              </div>
+
+              <div>
+                <button>Подробнее</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    
+
+
+    <div class="bottom">
+        <div class="contacts">Контакты</div>
+
+        <div class="group">
+          <table>
+            <tr>
+              <td>
+                <div c<div></div>
+                <div></div>
+                Почта</div>
+                <div class="contact">mtuci@gmail.com</div>
+              </td>
+
+              <td>
+                <div c<div></div>
+                <div></div>
+                Telegram</div>
+                <div class="contact">@mtuci</div>
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <div c<div></div>
+                <div></div>
+                Телефон</div>
+                <div class="contact">7 989 814 88 88</div>
+              </td>
+
+              <td>
+                <div c<div></div>
+                <div></div>
+                ВКонтакте</div>
+                <div class="contact">https://vk.com/ovsyanochan</div>
+              </td>
+            </tr>
+          </table>
+        </div>
+
+        <div class="partners">Наши партнеры</div>
+
+        <div class="partnersLogo">
+          <img src="../pics/dns.png" alt="" />
+          <img src="../pics/eldorado.png" alt="" />
+          <img src="../pics/mvideo.png" alt="" />
+        </div>
+      </div>
+</body>
+</html>
