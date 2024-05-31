@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./profile.css">
+  </head>
+  <body>
+    <div class="page">
+      <div class="header">
+        <div class="logo">PC</div>
+
+        <div class="sections">
+          <a href="../config/confing.html">
+            <button class="main">Главная</button>
+          </a>
+          <button class="config" onClick="document.getElementById('configScroll').scrollIntoView();">Конфигуратор</button>
+          <button class="collections" onClick="document.getElementById('collectionsScroll').scrollIntoView();">Сборки</button>
+          <button class="contacs" onClick="document.getElementsByClassName('contacts')[0].scrollIntoView();">Контакты</button>
+        </div>
+
+        <div class="auth">
+          <button class="loginSection">Вход</button>
+          <button class="signupSection">Регистрация</button>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="block">
+            <div class="title">Ваш профиль</div>
+            <div class="profile">
+                <div><img src="../pics/profile.png"></div>
+
+                <div class="description">
+                    <div class="userName">User1</div>
+                    
+                    <div class="balance">
+                        <div class="balanceTitle">Ваш баланс</div>
+                        <div class="balanceAmount">***Р</div>
+                    </div>
+
+                    <div>
+                        <button class="topUp">Пополнить</button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="block">
+            <div class="title">Ваша корзина</div>
+
+            <div class="basket">
+                <div class="module">
+                    <div><img src="../pics/basket1.png"></div>
+
+                    <div class="collection">
+                        <div class="collectionName">Ваша сборка</div>
+                        <div class="collectionDescription"></div>
+
+                        <div class="amountPanel">
+                            <button class="less">-</button>
+                            <div class="amount">1</div>
+                            <button class="more">+</button>
+                        </div>
+
+                        <div class="price">148 880 Р</div>
+
+                        <div class="productPage">
+                            <button>Страница товара ></button>
+                        </div>
+                    </div>
+
+                    <div class="remove">
+                        <button><img src="../pics/remove.png"></button>
+                    </div>
+                </div>
+
+                <div class="module">
+                    <div><img src="../pics/basket2.png"></div>
+
+                    <div class="collection">
+                        <div class="collectionName">Готовая сборка</div>
+                        <div class="collectionDescription"></div>
+
+                        <div class="amountPanel">
+                            <button class="less">-</button>
+                            <div class="amount">1</div>
+                            <button class="more">+</button>
+                        </div>
+
+                        <div class="price">150 000 Р</div>
+
+                        <div class="productPage">
+                            <button>Страница товара ></button>
+                        </div>
+                    </div>
+
+                    <div class="remove">
+                        <button><img src="../pics/remove.png"></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="block">
+            
+        </div>
+      </div>
+
+      <div class="bottom">
+        <div class="contacts">Контакты</div>
+
+        <div class="group">
+          <table>
+            <tr>
+              <td>
+                <div class="name">Почта</div>
+                <div class="contact">mtuci@gmail.com</div>
+              </td>
+
+              <td>
+                <div class="name">Telegram</div>
+                <div class="contact">@mtuci</div>
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <div class="name">Телефон</div>
+                <div class="contact">+7 989 814 88 88</div>
+              </td>
+
+              <td>
+                <div class="name">ВКонтакте</div>
+                <div class="contact">https://vk.com/ovsyanochan</div>
+              </td>
+            </tr>
+          </table>
+        </div>
+
+        <div class="partners">Наши партнеры</div>
+
+        <div class="partnersLogo">
+          <img src="../pics/dns.png" alt="" />
+          <img src="../pics/eldorado.png" alt="" />
+          <img src="../pics/mvideo.png" alt="" />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

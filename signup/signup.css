@@ -1,0 +1,157 @@
+@font-face {
+    font-family: Inter;
+    src: url(../fonts/Inter.ttf);
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Inter;
+}
+
+button:hover {
+    background-color: grey;
+    color: white;
+    transition: 0.7s;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    width: 100%;
+    height: 118px;
+    background: #202434;
+    color: rgba(131, 147, 161, 1)
+}
+
+.header * {
+    
+    color: #8393A1;
+}
+
+.logo {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+
+    color: #D7D7D7;
+}
+
+.sections * {
+    border-width: 0;
+    padding: 0 10px;
+
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 23.48px;
+    text-align: left;
+    background: #202434;
+
+}
+
+.loginSection, .signupSection {
+    background: rgba(39, 54, 68, 1);
+    width: 100px;
+    height: 36px;
+    border-radius: 38px;
+    border-width: 0;
+}
+
+.content {
+    padding: 15px 0;
+    background: rgba(24, 37, 49, 1);
+}
+
+.title {
+    width: 580px;
+    height: 113px;
+
+    font-weight: 700;
+    font-size: 96px;
+    color: whitesmoke;
+}
+
+.description {
+    width: 975px;
+    height: 68px;
+
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 28px;
+    text-align: center;
+    color: #4F5B67;
+}
+
+.userName, .userPass {
+    border-radius: 63px;
+    width: 484px;
+    height: 71px;
+    background: transparent;
+    margin: 5px 0;
+}
+
+.userName::placeholder , .userPass::placeholder {
+    text-align: center; 
+}
+
+.login {
+    width: 484px;
+    height: 75px;
+    border-radius: 61px;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.content {
+    align-items: center;
+}
+
+.content, .data, .info, .bottom {
+    display: flex;
+    flex-direction: column;
+}
+
+.bottom {
+    padding: 25px 20px;
+    background: #293744;
+
+    color: #E8E8E8;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+}
+
+.bottom * {
+    padding: 5px;
+}
+
+.name {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #9EA3A8;
+}
+
+img {
+    width: 104px;
+    height: 32px;
+    opacity: 0.6;
+}
+
+.partnersLogo {
+    opacity: 0.6
+}
+
+
+
+
+
+
